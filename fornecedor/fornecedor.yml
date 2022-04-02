@@ -1,11 +1,8 @@
 spring:
   datasource:
-    url: jdbc:mariadb://localhost:3306/fornecedor
-    driverClassName: org.mariadb.jdbc.Driver
-    username: root
     password: root
+    username: root
+    url: 'jdbc:mysql://localhost:3307/fornecedor'
   jpa:
-    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
     hibernate:
       ddl-auto: update
-      show-sql: false
